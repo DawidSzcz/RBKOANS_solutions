@@ -19,7 +19,7 @@ class AboutBlocks < Neo::Koan
   # ------------------------------------------------------------------
 
   def method_with_block_arguments
-    yield("Jim")
+    yield  "Jim"
   end
 
   def test_blocks_can_take_arguments
